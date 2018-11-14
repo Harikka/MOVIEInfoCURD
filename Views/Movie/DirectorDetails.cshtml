@@ -1,0 +1,35 @@
+﻿@model MOVIEInfoCURD.Models.DirectorDetails
+
+@{
+    ViewData["Title"] = "DirectorDetails";
+}
+
+<h2>DirectorDetails</h2>
+
+<div>
+    <h4>DirectorDetails</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Biodata)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Biodata)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
