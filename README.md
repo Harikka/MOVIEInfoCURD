@@ -1,3 +1,5 @@
+Steps needs to follow to run the project
++++++++++++++++++++++++++++++++++++++++++++++
 
 1. create the database in sql server
 
@@ -15,6 +17,8 @@ Framework : ASP .net MVC Razor view
 Development tool : Visual studio 2017
 
 Database: SQL Server 2012
+
+Front end UI: Bootstrap
 
 
 Project-overview Images
